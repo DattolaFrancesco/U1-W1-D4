@@ -72,9 +72,92 @@ main {
   background-color: rgb(228, 228, 228);
   border-radius: 0.4em;
 }
+.Olist p {
+  margin-bottom: 2em;
+}
+.Olist li {
+  list-style-type: decimal;
+  margin-left: 1.6em;
+}
+.Olist li:last-child {
+  margin-bottom: 2em;
+}
 /* TABELLE */
-
+caption {
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+}
+th {
+  background-color: #4170ce;
+  color: white;
+  border-right: 1px solid white;
+  padding: 1em;
+  text-align: center;
+}
+.th1 {
+  vertical-align: bottom;
+}
+table td {
+  text-align: center;
+  padding-block: 1em;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+.bcgTd {
+  background-color: rgb(244, 244, 244);
+}
+.Bblue {
+  border-bottom: 2px solid #4170ce;
+}
+.VideoD {
+  margin-block: 2em;
+}
+.VideoD a {
+  font-weight: 500;
+  color: #009cca;
+}
+iframe {
+  max-width: 100%;
+  border-radius: 2em;
+  max-height: 12em;
+}
 /* FORM */
+.form {
+  margin-top: 2em;
+  background-color: rgb(238, 238, 238);
+}
+.form h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding-block: 1em;
+}
+.formF {
+  margin-inline: 1em;
+}
+.IBform {
+  display: inline-block;
+}
+.IBform input {
+  border: 0px solid black;
+  border-bottom: 1px dashed black;
+  padding: 0.3em 0.6em;
+  text-align: left;
+  font-size: 1em;
+  margin-block: 1.3em;
+}
+.IBform button {
+  color: white;
+  background-color: #3366cd;
+  border: none;
+  padding: 0.3em;
+  font-size: 1em;
+}
+.IBform {
+  margin-bottom: 1em;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
