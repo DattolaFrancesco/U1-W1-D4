@@ -1,0 +1,81 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-image: url(../img/sfondo.png);
+}
+/* HEADER */
+nav {
+  background: linear-gradient(180deg, rgba(70, 199, 235, 1) 0%, rgba(51, 113, 138, 1) 100%, rgba(0, 110, 136, 1) 100%);
+  text-align: center;
+  padding: 2.5em;
+  box-shadow: 0px 3px 8px rgb(0, 0, 0);
+  margin-block: 2em;
+}
+nav img {
+  margin-bottom: 2em;
+}
+nav div {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+nav div h4 {
+  margin-bottom: 1.2em;
+}
+nav div p {
+  margin-bottom: 0.5em;
+}
+/* MAIN */
+main {
+  text-align: left;
+  padding: 1.5em;
+  box-shadow: 0px 3px 8px rgb(0, 0, 0);
+  background-color: white;
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+.titolo h1 {
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.titolo h3 {
+  color: rgb(173, 171, 171);
+  margin-block: 1.5em;
+}
+.ColoredP {
+  color: #aa2072;
+  font-weight: 500;
+}
+.Ulist p {
+  margin-block: 1.5em;
+}
+.Ulist li {
+  list-style-type: disc;
+  margin-left: 1.6em;
+}
+.Ulist li:last-child {
+  margin-bottom: 2em;
+}
+.borderIsolate {
+  border: 2px solid rgb(188, 188, 188);
+  display: inline-block;
+  background-color: rgb(228, 228, 228);
+  border-radius: 0.4em;
+}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
