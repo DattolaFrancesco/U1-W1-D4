@@ -154,6 +154,7 @@ iframe {
   background-color: #3366cd;
   border: none;
   padding: 0.3em;
+  padding-inline: 1.1em;
   font-size: 1em;
 }
 .IBform {
