@@ -87,6 +87,7 @@ caption {
   font-size: 1em;
   font-weight: 500;
   font-style: italic;
+  margin-top: 1em;
 }
 th {
   background-color: #4170ce;
@@ -165,6 +166,7 @@ iframe {
   font-size: 1.5em;
   text-transform: uppercase;
   padding-block: 1em;
+  margin-top: 1em;
 }
 .asideP {
   background-color: rgb(231, 231, 231);
