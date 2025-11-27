@@ -158,7 +158,42 @@ iframe {
 .IBform {
   margin-bottom: 1em;
 }
-
 /* ELEMENTI NELL' ASIDE */
-
+.aside h4 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding-block: 1em;
+}
+.asideP {
+  background-color: rgb(231, 231, 231);
+  margin-block: 1em;
+  padding: 1em;
+  border: 1px solid lightgrey;
+}
+.asideP a {
+  font-weight: 500;
+  color: #009cca;
+}
+.asideR {
+  text-align: right;
+  margin-top: 1em;
+}
 /* FOOTER */
+footer {
+  margin-block: 2em;
+  background: linear-gradient(180deg, rgba(0, 85, 102, 1) 0%, rgb(24, 53, 53) 100%);
+  text-align: center;
+  padding: 1em;
+  padding-bottom: 2em;
+  color: white;
+  line-height: 1.5em;
+}
+footer a {
+  color: #fe04fa;
+  font-weight: 500;
+}
+.Tfooter {
+  margin-bottom: 1em;
+}
