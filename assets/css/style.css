@@ -9,7 +9,7 @@ body {
   font-weight: 300;
   font-style: normal;
   background-image: url(../img/sfondo.png);
-  background-position: 100% -5%;
+  background-position: 90% -5%;
 }
 /* HEADER */
 nav {
@@ -187,7 +187,7 @@ iframe {
 /* FOOTER */
 footer {
   margin-block: 2em;
-  background: linear-gradient(180deg, rgba(0, 85, 102, 1) 0%, rgb(24, 53, 53) 100%);
+  background: linear-gradient(180deg, rgb(1, 130, 156) 0%, rgb(24, 53, 53) 100%);
   text-align: center;
   padding: 1em;
   padding-bottom: 2em;
